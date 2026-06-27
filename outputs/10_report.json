@@ -1,0 +1,34 @@
+{
+  "image": "10.webp",
+  "scout_data": {
+    "people_count": 150,
+    "density": "moderate",
+    "blocked_paths": 7,
+    "environment_type": "beach resort",
+    "hazard_factors": [
+      "large-scale fire",
+      "dense smoke",
+      "potential for structural collapse",
+      "limited escape routes",
+      "heat exposure",
+      "risk of panic"
+    ]
+  },
+  "risk_assessment": {
+    "threat_level": "CRITICAL",
+    "reason": "The combination of a large-scale fire, dense smoke, potential for structural collapse, limited escape routes, and 7 blocked paths creates a critical risk of panic and subsequent crowd crush or stampede."
+  },
+  "critic_review": {
+    "agrees_with_risk_level": true,
+    "adjusted_threat_level": "CRITICAL",
+    "critic_reasoning": "I agree with the 'CRITICAL' threat level. The Risk Agent accurately identified the extreme danger posed by a large-scale fire, dense smoke, and potential structural collapse, compounded by limited escape routes and 7 blocked paths. The 'beach resort' environment, while seemingly open, can present unique challenges such as unfamiliarity with emergency exits for guests, complex building layouts, and obstacles like pools or landscaping that can impede evacuation during a panic. These factors collectively create an undeniable and immediate threat to life, making the 'CRITICAL' assessment entirely justified and not requiring further elevation."
+  },
+  "commander_plan": {
+    "immediate_actions": [
+      "Immediately activate all emergency alarms and initiate a phased evacuation, prioritizing areas closest to the fire/blocked paths, directing guests to the nearest available and safe emergency exits via pre-recorded messages and live announcements.",
+      "Deploy all available trained staff (security, resort personnel) to key choke points, stairwells, and exits to guide guests, prevent bottlenecks, and assist those with mobility issues, utilizing megaphones or resort communication systems for clear instructions.",
+      "Establish a central command post to monitor evacuation progress, coordinate with emergency services, and provide real-time updates on safe routes and blocked areas via resort digital signage and internal communication channels."
+    ],
+    "personnel_required": true
+  }
+}

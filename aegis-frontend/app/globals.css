@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aegis-bg:     #050c14;
+  --color-aegis-panel:  #0a121e;
+  --color-aegis-surface:#060f1a;
+  --color-aegis-scout:  #58a6ff;
+  --color-aegis-risk:   #3fb950;
+  --color-aegis-critic: #f85149;
+  --color-aegis-cmd:    #a371f7;
+  --color-aegis-border: #1e2a38;
+  --color-aegis-border-strong: #2a3f55;
+
+  --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-aegis-bg);
+  color: #b8cfe0;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1e2a38; border-radius: 2px; }
+
+/* Cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+.cursor-blink { animation: blink 1s step-end infinite; }
+
+/* Scan line */
+@keyframes scan {
+  0%   { top: 0%; }
+  100% { top: 100%; }
+}
+.scan-line {
+  position: absolute;
+  left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(88,166,255,0.3), transparent);
+  animation: scan 3s linear infinite;
+  pointer-events: none;
+}
+
+/* Pulse glow on critic node */
+@keyframes critic-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(248,81,73,0.2); }
+  50%       { box-shadow: 0 0 20px rgba(248,81,73,0.4); }
+}
+.critic-pulse { animation: critic-pulse 2s ease-in-out infinite; }
+
+/* Debate edge animation */
+@keyframes debate-dash {
+  to { stroke-dashoffset: -20; }
+}
+.debate-edge { animation: debate-dash 1s linear infinite; }
+
+/* Terminal log entry fade-in */
+@keyframes log-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.log-entry { animation: log-in 0.3s ease forwards; }
