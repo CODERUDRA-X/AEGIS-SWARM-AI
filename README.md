@@ -1,29 +1,78 @@
-# 🛡️ AEGIS-SWARM
-### Autonomous Emergency Ground Intelligence & Swarm Response System
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Operational_Deployable-3fb950?style=for-the-badge&logo=googlecloud" alt="Status" />
-  <img src="https://img.shields.io/badge/Architecture-4_Agent_Cognitive_Mesh-00d2ff?style=for-the-badge&logo=openai" alt="Architecture" />
-  <img src="https://img.shields.io/badge/Integration-Live_MCP_Telemetry-f0883e?style=for-the-badge&logo=nasa" alt="MCP" />
-  <img src="https://img.shields.io/badge/Kaggle-Capstone_Project-20BEFF?style=for-the-badge&logo=Kaggle" alt="Kaggle" />
+<h1> AEGIS-SWARM </h1>
+
+### The AI That Refuses to Trust Its First Answer.
+
+## One Image. Four Independent Minds. One Trusted Decision.
+
 </div>
+<p align="center">
 
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=900&lines=OBSERVE.;ANALYZE.;CHALLENGE.;VALIDATE.;EXECUTE." />
 
-> **"Most AI systems answer questions. AEGIS-SWARM coordinates reality."** > An enterprise-grade AI operations command center that transforms raw drone/CCTV visual feeds and live environmental telemetry into a coordinated 3-step action plan within seconds.
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/⚡_ENGINE-BUILT_FROM_SCRATCH-00C2FF?style=for-the-badge&labelColor=0D1117"/>
+
+<img src="https://img.shields.io/badge/🧠_REASONING-CONSENSUS_BEFORE_ACTION-E53935?style=for-the-badge&labelColor=0D1117"/>
+
+<img src="https://img.shields.io/badge/📡_REALITY-LIVE_MCP_CONTEXT-FF9800?style=for-the-badge&labelColor=0D1117"/>
+
+<img src="https://img.shields.io/badge/🛡️_TRUST-CRITIC_VALIDATED-43A047?style=for-the-badge&labelColor=0D1117"/>
+
+<img src="https://img.shields.io/badge/☁️_DEPLOY-GOOGLE_CLOUD_RUN-4285F4?style=for-the-badge&logo=googlecloud&labelColor=0D1117"/>
+
+</p>
+
+**Autonomous Multi-Agent Visual Intelligence Framework**
+
+> **Most AI systems generate answers. AEGIS-SWARM generates trusted operational decisions.**
+
+AEGIS-SWARM is a custom-built multi-agent orchestration framework for consensus-driven visual intelligence. It was engineered from scratch to provide deterministic control over agent communication, debate, and decision validation rather than relying on a generic orchestration wrapper.
+
+Every recommendation is debated, challenged, and validated against live environmental telemetry before execution.
+
+**One image. Multiple AI minds. One trusted decision.**
+
+
+
 
 ---
 
 ## 🎥 The Command Center in Action
 [![AEGIS-SWARM Pitch](https://img.shields.io/badge/YouTube-Watch_Pitch_Video-FF0000?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_LINK_HERE)
 
-*soon.. ![Demo GIF](./docs/demo.gif)
+🚧 Demo video will be published before the Kaggle submission deadline.. ![Demo GIF](./docs/demo.gif)
 
 ---
 
-## 🧠 The 4-Agent Cognitive Pipeline (ADK)
+## ⚡ Why AEGIS-SWARM?
 
-AEGIS-SWARM abandons the traditional "zero-shot LLM" approach. Instead, it utilizes a highly specialized, debating swarm of 4 agents powered by **Gemini 2.5 Flash**.
+> **Traditional AI trusts its first answer.**
+>
+> **AEGIS-SWARM doesn't.**
+
+AEGIS-SWARM is a **consensus-driven multi-agent orchestration framework** engineered for high-stakes operational intelligence.
+
+Instead of relying on a single model response, every recommendation is:
+
+* 👁️ **Observed** through visual intelligence
+* 🧠 **Analyzed** by specialized reasoning agents
+* ⚔️ **Challenged** by an independent Critic Agent
+* 📡 **Validated** against live environmental context (MCP)
+* 🛡️ **Promoted** into an operational decision only after consensus
+
+<div align="center">
+
+## **One Image. Four Independent Minds. One Trusted Decision.**
+
+</div>
+
+ ## 🧠 The 4-Agent Cognitive Pipeline
+
+Instead of relying on a single LLM response, AEGIS-SWARM orchestrates a team of specialized cognitive agents that observe, reason, challenge assumptions, and build consensus before recommending action.
 
 ```mermaid
 graph TD
