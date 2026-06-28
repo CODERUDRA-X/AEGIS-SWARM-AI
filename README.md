@@ -147,10 +147,6 @@ flowchart LR
 
 ---
 
-## 📸 Interface Gallery
-
----
-
 ## 🚀 Local Installation Guide
 
 ### Prerequisites
