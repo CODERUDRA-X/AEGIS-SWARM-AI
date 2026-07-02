@@ -3,4 +3,8 @@ uvicorn
 python-multipart
 requests
 python-dotenv
+pydantic
 google-genai
+slowapi    # For Rate limiting (Security)
+pytest     # For Testing 
+httpx      # For API calls and testing
